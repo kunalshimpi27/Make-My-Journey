@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url("bg1.png");
+}
+
+.container{
+    max-width: 80%; 
+    padding: 34px; 
+    margin: auto;
+}
+
+.container h1 {
+    text-align: center;
+    font-family: 'Sriracha', cursive;
+    font-size: 40px;
+}
+h1{
+    color: aliceblue;
+}
+h4{
+    font-size: 17px;
+    text-align: center;
+    color: white;
+    font-family: 'Sriracha', cursive;
+}
+
+p{
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Sriracha', cursive;
+}
+
+input, textarea{
+    
+    border: 3px solid black;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+    width: 80%;
+    margin: 11px 0px;
+    padding: 7px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.b1{
+    color: white;
+    background: purple;
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid rgb(247, 243, 11);
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.b1:hover{
+    color: brown;
+    background-color: yellow;
+    border: 2px solid wheat;
+}
+
+.submitMsg{ 
+    color: green;
+    background-color: antiquewhite;
+}
+
+.a10{
+    color: aliceblue;
+}
+
+.box{
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+}

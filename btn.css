@@ -1,0 +1,42 @@
+
+  
+  .btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(31, 38, 31);
+    color: white;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background 0.5s;
+    text-transform: uppercase;
+    position: relative;
+    width: 200px;
+}
+  .btn:first-child:hover{
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+  }
+  .btn:first-child:before{
+    content: '';
+    position: absolute;
+    background: inherit;
+    top: -5px;
+    right: -5px;
+    bottom: -5px;
+    left: -5px;
+    border-radius: 50px;
+    filter: blur(20px);
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  .btn:first-child:hover:before{
+    opacity: 1;
+    z-index: -1;
+  }
+  .btn:hover{
+    z-index: 1;
+    animation: glow 8s linear infinite;
+  }
+  
